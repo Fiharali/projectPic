@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+    <style>
+        body{
+    background-image: url('pngtree-camera-lens-photography-picture-picture-image_1562531.jpg');
+    background-size:cover ;
+    background-attachment:fixed ;
+    animation: bg 10s infinite;
+}
+@keyframes bg {
+            0% , 100%{
+                 background-position:0% 100%;   
+               
+            }
+            50%{
+                background-position:100% 0% ; 
+                
+               
+               
+            }
+        }
+fieldset{
+   margin-left: 299px;
+   margin-right: 299px;
+   border:  solid;
+   border-radius: 10px;
+   border-color:rgb(247, 243, 243) ;
+   background-color: rgba(213, 213, 223, 0);
+   margin-top: 40px;
+   animation: flash 4s infinite;
+
+
+}
+@keyframes flash{
+    0%,100%{
+   border-color:rgb(252, 250, 250) ;
+
+    }
+    50%{
+   border-color:rgb(10, 10, 10) ;
+
+    }
+}
+.prenom{
+    margin-left: 100px;
+}
+.nom{
+    margin-left: 13px;
+}
+.pass{
+    margin-left: 100px;
+}
+.pree{
+    margin-left: 18px;
+}
+input{
+    background-color:rgba(232, 232, 243, 0);
+    border: white;
+    color: white;
+}
+label{
+    color: white;
+}
+textarea{
+    margin-left: 335px;
+    margin-top: -46px;
+    height: 100px;
+    width: 265px;
+    background-color: rgba(213, 213, 223, 0);
+    border-radius: 16px;
+   border-color:rgb(248, 238, 238) ;
+   color: white;
+
+}
+.BUTT{
+    margin-left: 334px;
+}
+button{
+    width: 99px;
+    height: 33px;
+    background-color: rgb(213, 213, 223);
+   border-color:black ;
+   border-radius:11px ;
+}
+button:hover{
+    background-color: rgb(8, 8, 8);
+    color: rgb(252, 4, 4);
+   border-color:rgb(252, 3, 3) ;
+
+    transition: all 1s;
+}
+a{
+    color: rgb(247, 244, 244);
+    text-decoration-style: double;
+}
+a:hover {
+    background-color:black;
+    color: blanchedalmond;
+    padding: 10px;
+}
+
+
+
+
+    </style>
+</head>
+<a href="file:///C:/Users/Admin/Desktop/MON%20PROJET%202/home/home.html#"> < BACK TO HOME</a><br><br>
+
+<fieldset><legend> <h2 style="color: white;">contact as</h2></legend>
+    <label for="name">NOM:</label>
+    <input type="text" class="nom" placeholder="entre votre nom">
+    <label for="prenom" class="prenom">PRENOM:</label>
+    <input type="text" class="pree" placeholder="entre votre prenom"><br><br>
+    <label for="email">EMAIL:</label>
+    <input type="email" placeholder="votre email">
+    <label for="password" class="pass">PASSWORD:</label>
+    <input type="password" placeholder="votre mot de passe"><br><br><br>
+    <p style="color: white;">VOTRE QUESTION OU VOTRA PROBLEM:</p><br><textarea></textarea><br><br><br><br>
+    <button class="BUTT">SEND</button>
+    <button> CANCEL</button>
+
+
+
+
+
+
+</fieldset>
+<body>
+    
+</body>
+</html>
